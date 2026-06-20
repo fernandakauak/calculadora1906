@@ -27,7 +27,7 @@ do {
         console.log("No se han ingresado datos");       
     }else{
         alert(`Dato no válido`);
-        console.log('Dato no válido');
+        break;
     }
 }while (!cerrar)
 
